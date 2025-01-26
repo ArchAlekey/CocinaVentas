@@ -1,0 +1,190 @@
+body{
+    background-color: #5c3f32;
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: aliceblue;
+    font-size: 250%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+li{
+    list-style: none;
+    font-size: 90%;
+}
+img{
+    width: 45%;
+    border-radius: 2rem;
+    object-fit: cover;
+}
+.contenedor__banner{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 7vh;
+    background-color: #d3b677;
+    border-bottom: solid white 2px;
+}
+.contenedor__banner img{
+    width: 400px;
+    height: 50px;
+}
+
+.menu__navegacion{
+    /*cursor: pointer;*/
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 150%;
+    color: #aaa999;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 2vh auto;
+}
+
+/* Pantallas de celular */
+@media(max-width: 450px){
+    .contenedor__banner{
+        height: 7vh;
+    }
+    .contenedor__banner img{
+        width: 350px;
+        height: 45px;
+    }
+    .menu__navegacion{
+        /* display: none; */
+        font-size: 90%;
+    }
+    p{
+        font-size: 100%;
+    }
+    li{
+        font-size: 70%;
+    }
+    img{
+        width: 100%;
+        border-radius: 2rem;
+        object-fit: cover;
+    }
+}
+
+main{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: 6vh auto 2vh;
+    width: 90%;
+    height: 100%;
+    /* border: 2px solid white; */
+}
+
+.contenedor__Menu{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+/* EStilos para loso menús de los platillos */
+
+.contenedor__menuDesayunos{
+    display: block  ;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 95%;
+    height: 90%;
+    border: solid 2px white;
+    background-color: #d3b677;
+    border-radius: 1rem;
+}
+
+.btn__1{
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 1rem;
+    width: 175px;
+    height: 50px;
+    background-color: #947e4f;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 75%;
+    color: #fff;
+    border: 0;
+}
+.btn__1:hover{
+    background-color: #d3b677;
+}
+.btn__2{
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 1rem;
+    width: 175px;
+    height: 50px;
+    background-color: #947e4f;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 75%;
+    color: #fff;
+    border: 0;
+}
+.btn__2:hover{
+    background-color: #d3b677;
+}
+.btn__3{
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 1rem;
+    width: 175px;
+    height: 50px;
+    background-color: #947e4f;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 75%;
+    color: #fff;
+    border: 0;
+}
+.btn__3:hover{
+    background-color: #d3b677;
+}
+.btn__4{
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 1rem;
+    width: 175px;
+    height: 50px;
+    background-color: #947e4f;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 75%;
+    color: #fff;
+    border: 0;
+}
+.btn__4:hover{
+    background-color: #d3b677;
+}
+
+.contenedor__menuIndividual{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    text-align: center;
+    font-size: 250%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.contenedor__linkWA{
+    font-size: 200%;
+    /* color: greenyellow; */
+    border: 3px solid black;
+    background-color: #aaa999;
+    border-radius: 2rem;
+    width: 10%;
+}
+.contenedor__linkWA:hover{
+    color: greenyellow;
+    background-color: #fff;
+}
