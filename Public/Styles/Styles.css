@@ -179,12 +179,16 @@ main{
 .contenedor__linkWA{
     font-size: 200%;
     /* color: greenyellow; */
-    border: 3px solid black;
-    background-color: #aaa999;
+/*     border: 3px solid black;
+    background-color: #aaa999; */
     border-radius: 2rem;
     width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
 }
 .contenedor__linkWA:hover{
     color: greenyellow;
-    background-color: #fff;
+    /* background-color: #fff; */
 }
