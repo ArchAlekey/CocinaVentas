@@ -31,7 +31,7 @@ var menuDia = {
     bebidas : "Agua de limón",
     postre : "Flan",
     imagenMenu : {
-        TortasPollo : "/Public/Img/Productos/TortasPollo.jpg"
+        TortasPollo : "/Public/Img/Cazuela.png"
     }
 }
 
