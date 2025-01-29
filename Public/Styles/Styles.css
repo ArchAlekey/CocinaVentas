@@ -85,7 +85,7 @@ main{
 }
 
 .contenedor__Menu{
-    display: block;
+    display: flex;
     justify-content: center;
     align-items: center;
     margin: auto;
@@ -94,7 +94,7 @@ main{
 /* EStilos para loso menús de los platillos */
 
 .contenedor__menuDesayunos{
-    display: block  ;
+    display: block;
     justify-content: center;
     align-items: center;
     margin: auto;
@@ -167,7 +167,7 @@ main{
 }
 
 .contenedor__menuIndividual{
-    display: flex;
+    display: block;
     justify-content: center;
     align-items: center;
     margin: auto;

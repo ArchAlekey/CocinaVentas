@@ -25,13 +25,14 @@ function renderMenuDia() {
                 <li>Sopa: ${menuDia.entradas.entradaSopas.Sopa1}</li>
                 <li>Bebida: ${menuDia.bebidas}</li>
                 <li>Postre: ${menuDia.postre}</li>
-                <img src="${menuDia.imagenMenu.TortasPollo}" alt="">
+                
                 <li>Precio en cocina: $70</li>
                 <li>Precio a domicilio: $80</li>
+            </ul>
+                <img src="Public/Img/Productos/TortasPollo.jpg" alt="">
                 <div class="contenedor__linkWA">
                     <a href="https://wa.me/525626666865?text=Haz%20tu%20pedido%20aqui"><i class="fa-brands fa-whatsapp"></i></a>
                 </div>
-            </ul>
             `;
     } else {
         console.error('El contenedor .contenedor__menuIndividual no está disponible');
