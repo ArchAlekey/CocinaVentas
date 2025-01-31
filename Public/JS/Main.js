@@ -64,18 +64,6 @@ function renderBebidas(){
     const contMenuBebidas = document.querySelector(".contenedor__menuIndividual")
             if(contMenuBebidas){
                 contMenuBebidas.innerHTML = `
-        <div class="contenedor__carrusel">
-            <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
-            <div class="carrusel">
-                <img src="../Public/Img/Productos/Bebidas/Cafe.jpg" alt="" class="carousel-slide">
-                <img src="../Public/Img/Productos/Bebidas/CafeLeche.jpg" alt="" class="carousel-slide">
-                <img src="../Public/Img/Productos/Bebidas/Té.jpg" alt="" class="carousel-slide">
-                <img src="../Public/Img/Productos/Bebidas/Frappe.jpg" alt="" class="carousel-slide">
-                <img src="../Public/Img/Productos/Bebidas/Jugo.jpg" alt="" class="carousel-slide">
-                <img src="../Public/Img/Productos/Bebidas/coca.jpg" alt="" class="carousel-slide">
-            </div>
-            <button class="next" onclick="moveSlide(1)">&#10095;</button>
-        </div>
         <ul>
             <th>Bebidas</th>
             <li>${Bebidas.bebida1}</li>
