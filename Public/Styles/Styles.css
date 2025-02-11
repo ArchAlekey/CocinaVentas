@@ -6,6 +6,7 @@ body{
 a{
     text-decoration: none;
     color: inherit;
+    outline: none;
 }
 p{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -28,13 +29,32 @@ img{
 th{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif   ;
 }
-.contenedor__banner{
+
+header{
     display: flex;
     justify-content: center;
     width: 100%;
     height: 7vh;
     background-color: #d3b677;
     border-bottom: solid white 2px;
+}
+
+.btn__home{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin: auto 0 auto 30px;
+    cursor: pointer;
+    font-size: 30px;
+}
+.btn__home:hover{
+    color: #fff;
+}
+.contenedor__banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
 }
 .contenedor__banner img{
     width: 400px;
@@ -53,6 +73,7 @@ th{
 
 /* Pantallas de celular */
 @media(max-width: 450px){
+    
     .contenedor__banner{
         height: 7vh;
     }
@@ -196,40 +217,3 @@ main{
     /* background-color: #fff; */
 }
 
-/* Carrucel */
-
-.contenedor__carrusel{
-    position: relative;
-    width: 250px;
-    height: 200px;
-    overflow: hidden;
-    border-radius: 10px;
-    margin: 10vh auto;
-}
-
-.carrusel{
-    display: flex;
-    transition: transform 0.5s ease-in-out;
-}
-
-.carousel-slide {
-    width: 300px;
-    height: 200px;
-    object-fit: cover;
-    margin: auto;
-}
-
-.prev, .next {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    background-color: rgba(0, 0, 0, 0.5);
-    color: white;
-    border: none;
-    padding: 10px;
-    cursor: pointer;
-    z-index: 10;
-}
-
-.prev { left: 5px; }
-.next { right: 5px; }
