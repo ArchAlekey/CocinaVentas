@@ -71,33 +71,6 @@ header{
     margin: 2vh auto;
 }
 
-/* Pantallas de celular */
-@media(max-width: 450px){
-    
-    .contenedor__banner{
-        height: 7vh;
-    }
-    .contenedor__banner img{
-        width: 350px;
-        height: 45px;
-    }
-    .menu__navegacion{
-        /* display: none; */
-        font-size: 90%;
-    }
-    p{
-        font-size: 100%;
-    }
-    li{
-        font-size: 70%;
-    }
-    img{
-        width: 100%;
-        border-radius: 2rem;
-        object-fit: cover;
-    }
-}
-
 main{
     display: block;
     justify-content: center;
@@ -217,3 +190,46 @@ main{
     /* background-color: #fff; */
 }
 
+
+/* Pantallas de celular */
+@media(max-width: 450px){
+    .contenedor__banner{
+        height: 7vh;
+    }
+    .contenedor__banner img{
+        width: 350px;
+        height: 45px;
+    }
+    .menu__navegacion{
+        /* display: none; */
+        font-size: 90%;
+    }
+    p{
+        font-size: 100%;
+    }
+    li{
+        font-size: 70%;
+    }
+    img{
+        width: 100%;
+        border-radius: 2rem;
+        object-fit: cover;
+    }
+
+    .btn__1{
+        width: 55px;
+        font-size: 50%;
+    }
+    .btn__2{
+        width: 55px;
+        font-size: 50%;
+    }
+    .btn__3{
+        width: 55px;
+        font-size: 50%;
+    }
+    .btn__4{
+        width: 55px;
+        font-size: 50%;
+    }
+}
