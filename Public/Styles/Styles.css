@@ -81,16 +81,9 @@ main{
     /* border: 2px solid white; */
 }
 
-.contenedor__Menu{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
-}
-
 /* EStilos para loso menús de los platillos */
 
-.contenedor__menuDesayunos{
+.contenedor__menu{
     display: block;
     justify-content: center;
     align-items: center;
@@ -102,75 +95,20 @@ main{
     border-radius: 1rem;
 }
 
-.btn__1{
+.btn__opciones{
     text-decoration: none;
     cursor: pointer;
     border-radius: 1rem;
-    width: 175px;
-    height: 50px;
+    width: 125px;
+    height: 60px;
     background-color: #947e4f;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 75%;
+    font-size: 65%;
     color: #fff;
     border: 0;
 }
-.btn__1:hover{
+.btn__opciones:hover{
     background-color: #d3b677;
-}
-.btn__2{
-    text-decoration: none;
-    cursor: pointer;
-    border-radius: 1rem;
-    width: 175px;
-    height: 50px;
-    background-color: #947e4f;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 75%;
-    color: #fff;
-    border: 0;
-}
-.btn__2:hover{
-    background-color: #d3b677;
-}
-.btn__3{
-    text-decoration: none;
-    cursor: pointer;
-    border-radius: 1rem;
-    width: 175px;
-    height: 50px;
-    background-color: #947e4f;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 75%;
-    color: #fff;
-    border: 0;
-}
-.btn__3:hover{
-    background-color: #d3b677;
-}
-.btn__4{
-    text-decoration: none;
-    cursor: pointer;
-    border-radius: 1rem;
-    width: 175px;
-    height: 50px;
-    background-color: #947e4f;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 75%;
-    color: #fff;
-    border: 0;
-}
-.btn__4:hover{
-    background-color: #d3b677;
-}
-
-.contenedor__menuIndividual{
-    display: block;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
-    text-align: center;
-    font-size: 250%;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .contenedor__linkWA{
