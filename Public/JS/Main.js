@@ -26,7 +26,7 @@
     
         // Botones de navegación (Están en todas las vistas)
         const btnOpciones = document.querySelectorAll(".btn__opciones");
-        const paginas = ["/View/MenuDia_FE.html", "/View/Desayunos_FE.html", "/View/Comidas_FE.html", "/View/Bebidas_FE.html"];
+        const paginas = ["../View/MenuDia_FE.html", "../View/Desayunos_FE.html", "../View/Comidas_FE.html", "../View/Bebidas_FE.html"];
     
         btnOpciones.forEach((boton, index) => {
             boton.addEventListener("click", function () {
